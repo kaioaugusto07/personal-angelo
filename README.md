@@ -18,55 +18,6 @@ powe-angelo/
 ├── README.md               # Este arquivo
 └── desktop.ini             # (ignorar - arquivo de sistema)
 
-## 🚀 Como executar localmente
-
-### Requisitos
-- Navegador moderno (Chrome, Firefox, Safari, Edge)
-- Nenhuma dependência externa
-
-### Passos
-
-1. **Baixe ou clone os arquivos** para uma pasta local
-2. **Abra o arquivo `app.html`** no navegador:
-   - Clique duplo no arquivo, ou
-   - Arraste para o navegador, ou
-   - Use um servidor local (veja abaixo)
-
-### Com servidor local (recomendado)
-
-**Python 3:**
-```bash
-python -m http.server 8000
-```
-
-**Node.js:**
-```bash
-npx http-server
-```
-
-Acesse `http://localhost:8000` no navegador.
-
-## 🌐 Como publicar
-
-### Hospedagem estática
-Use qualquer serviço de hospedagem estática:
-- **Vercel** (recomendado): Arraste a pasta para deploy automático
-- **Netlify**: Conecte o repositório Git
-- **GitHub Pages**: Push para branch `gh-pages`
-- **Firebase Hosting**: Configure e faça deploy via CLI
-- **Hostinger / 000webhost**: Upload via FTP
-
-### Passos básicos para Vercel
-1. Acesse [vercel.com](https://vercel.com)
-2. Clique em "New Project"
-3. Arraste a pasta `angelo_powerlifting_site` ou conecte o Git
-4. Deploy automático realizado
-
-### Passos básicos para Netlify
-1. Acesse [netlify.com](https://netlify.com)
-2. Clique em "Sites"
-3. Arraste a pasta ou conecte Git
-4. Site publicado em segundos
 
 ## 📱 Responsividade
 
@@ -74,17 +25,6 @@ Use qualquer serviço de hospedagem estática:
 - Tablet (≤768px): Menu adaptado, botão de contato removido
 - Mobile (≤480px): Imagem "sobre" mais alta, textos ajustados
 
-## 🔗 Links WhatsApp
-
-Os links para WhatsApp estão em:
-- `app.html` (múltiplos locais)
-
-Substitua o número `554499796242` pelo seu:
-
-```html
-<!-- Substitua este número -->
-https://wa.me/554499796242?text=Olá%20Angelo!
-```
 
 ## 🎨 Customizações rápidas
 
@@ -110,16 +50,6 @@ Coloque imagens PNG na pasta `img/` e atualize os `src`:
 <img src="img/sua-imagem.png" alt="descrição">
 ```
 
-## ✅ Checklist antes de publicar
-
-- [ ] Remova o arquivo `desktop.ini` da pasta `img/`
-- [ ] Verifique todos os links WhatsApp com o número correto
-- [ ] Teste em mobile (chrome devtools: Ctrl+Shift+M)
-- [ ] Teste em diferentes navegadores
-- [ ] Verifique se todas as imagens carregam
-- [ ] Teste os botões FAQ (abrir/fechar)
-- [ ] Teste o link do botão flutuante WhatsApp
-
 ## 🛠️ Troubleshooting
 
 **Imagens não carregam:**
@@ -133,13 +63,6 @@ Coloque imagens PNG na pasta `img/` e atualize os `src`:
 **JavaScript FAQ não funciona:**
 - Verifique se `app.js` está no mesmo nível que `app.html`
 - Abra console (F12) e procure por erros
-
-## 📞 Suporte
-
-Para dúvidas sobre a página, revise:
-- Estrutura HTML em `app.html`
-- Estilos em `index.css`
-- Lógica em `app.js`
 
 ---
 
