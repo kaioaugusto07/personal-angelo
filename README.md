@@ -1,6 +1,6 @@
 # Angelo Powerlifting - Consultoria Online
 
-Landing page profissional para consultoria de powerlifting online..
+Landing page profissional para consultoria de powerlifting online.
 
 ## 📋 Estrutura de arquivos
 
